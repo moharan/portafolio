@@ -1,3 +1,30 @@
 body {
+	background-color: whitesmoke;
+	color: #999;
+	margin: 0 auto;
+	padding: 0;
+}
+.presentacion {
 	background-color: black;
+	height: 95vh;
+	margin-top: 5vh;
+}
+/*texto introductor*/
+.texto-principal {
+	font-size: 5em;
+	text-align: left;
+}
+.contacto {
+	background-color: rgba(255, 255, 255, .5);
+	position: absolute;
+	bottom: 10vh;
+	right: 10vh;
+	width: 20vh;
+	text-align: center;
+}
+.icono {
+	color: whitesmoke;
+}
+.icono:hover {
+	color: purple;
 }
