@@ -1,0 +1,95 @@
+body {
+	background-color: $background-color-main;
+	color: $background-color-second;
+	margin: 0 auto;
+	padding: 0;
+}
+/*Nav*/
+.navbar-default {
+    background-color: $background-color-third;
+    z-index: 1;
+    opacity: 0.5;
+    border: none;
+    text-align: center;
+}
+.navbar-right {
+	margin: 10px;
+}
+/*Sección 01*/
+.principal {
+	background-color: $background-color-second;
+	height: 100vh;
+}
+/*Sección 02*/
+.segunda {
+	background-color: $background-color-main;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*Sección 03*/
+.tercera {
+	background-color: $background-color-fourth;
+	height: auto;
+	padding: 10px;
+	font-size: 12px;
+}
+.cuarta {
+	background-color: $background-color-main;
+	height: 20vh 40vh;
+}
+/*texto introductor*/
+.texto-principal {
+	margin-top: 10vh;
+	font-size: 5em;
+	text-align: left;
+	/*texto gradiente*/
+	background: -webkit-linear-gradient($background-color-fourth,$background-color-third);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	color: white;
+}
+.texto-link {
+	color: $background-color-fourth !important;
+}
+.icono {
+	color: white;
+	margin-right: 10px;
+}
+.icono:hover {
+	color: $background-color-second;
+}
+.skills {
+	border: 1px dashed $background-color-third;
+	padding: 25px;
+}
+.works {
+	/*border: 1px solid white;*/
+	margin: 10px auto;
+	padding: auto;
+}
+.work-text {
+	margin-top: 20px;
+	color: $background-color-third;
+}
+/* efecto texto intro */
+/* media */
+@media only screen and (min-width: 1281px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+	.texto-principal {
+	font-size: 4em;
+	margin-top: 5vh;
+	}
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	.texto-principal {
+	font-size: 4em;
+	margin-top: -5vh;
+	}
+}
+@media only screen and (min-width: 1px) and (max-width: 480px) {
+	.texto-principal {
+	font-size: 3em;
+	}
+}
